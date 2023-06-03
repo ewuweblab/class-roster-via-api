@@ -1,21 +1,16 @@
-/* My Styles */
+/* Styling */
 
-.gallery {
+/* Tempoarary Layout. Replace with your own */
+
+main.roster {
+    /* 3 column grid */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(50px, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem 0;
 }
 
-.gallery figure {
-    background: gray;
-}
-
-.gallery img {
-    /* fit images to container */
-    object-fit: cover;
-    height: 300px;
+figure img {
+    /*  */
     width: 100%;
-    
 }
-
